@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Hero page</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family: "Montserrat", sans-serif;
+        line-height: 1.5;
+      }
+      nav {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 600;
+      }
+      header {
+        height: 100vh;
+        color: #fff;
+        position: relative;
+        background-image: linear-gradient(
+            to left,
+            rgba(33, 33, 33, 0.8),
+            rgba(32, 32, 32, 0.8)
+          ),
+          url(food1.jpg);
+        background-size: cover;
+      }
+
+      .header-content {
+        /* width: 1000px; */
+        padding: 0 5rem;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        top: 60%;
+        left: 50%;
+      }
+      .header-half {
+        width: 60%;
+      }
+      .container {
+        padding-inline: 5rem;
+        width: 100%;
+        margin: 0 auto;
+      }
+      h1 {
+        font-size: 52px;
+        letter-spacing: -1px;
+        line-height: 1;
+        margin-bottom: 30px;
+        font-family: "Roboto", sans-serif;
+      }
+      .btn:link,
+      .btn:visited {
+        margin-top: 30px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #e8590c;
+        border-radius: 10px;
+        color: #fff;
+        box-shadow: 0 0 24px rgba(0, 0, 0, 0.2);
+      }
+      .btn:hover,
+      .btn:active {
+        box-shadow: none;
+      }
+      P {
+        line-height: 1.6;
+      }
+      section {
+        margin-top: 25vh;
+      }
+      ul {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+      }
+      li {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .links:link,
+      .links:visited {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .links:hover,
+      .links:active {
+        color: #e8590c;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <h3>LOGO</h3>
+        </div>
+        <div class="navigator">
+          <ul>
+            <li><a href="#" class="links">Home</a></li>
+            <li><a href="#" class="links">About Us</a></li>
+            <li><a href="#" class="links">Services</a></li>
+            <li><a href="#" class="links">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <div class="header-half">
+          <h1>
+            Eat breakfast like a king, lunch like a prince, and dinner like
+            pauper.
+          </h1>
+
+          <p class="header-sub">
+            Customers, using their computer or smartphone, access a restaura
+            menu online, make their selections, and place an order. By the t a
+            customer arrives at the restaurant, their food is packaged and ready
+            for pickup.
+          </p>
+          <a href="#" class="btn">Book now</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- <section>
+      <div class="container">
+      <div class="container">
+        <h2>Lorem ipsum dolor sit amet</h2>
+
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi
+          libero, nostrum nam quam eius at rem exercitationem voluptatem
+          voluptates aspernatur. Neque impedit quidem nemo nam dolorum, ea
+          alias! Officia, magni?Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ratione asperiores possimus id modi repellat? Maxime
+          atque numquam esse possimus eveniet aut earum odit culpa expedita
+          laborum magnam quam, quaerat itaque.
+        </p>
+      </div>
+    </section> -->
+  </body>
+</html>
